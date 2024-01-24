@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-data = pd.read_csv('C:\\Users\\coole\\Documents\\AI\\MNIST\\Resources\\mnist_train.csv')
+data = pd.read_csv('mnist_train.csv')
 #data = pd.read_csv('C:\\Users\\coole\\Documents\\AI\\MNIST\\Resources\\mnist_test.csv')
 
 data = np.array(data)
